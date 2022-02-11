@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="reset.css">
+      <title>電卓</title>
+    </head>
+    <body>
+      <h3 class="AppTitle">電卓</h3>
+        <div class="Calculator">
+          <input type="text" id="result" value="0" class="DisplayResult" disabled>
+          <div class="CalRow">
+            <input type="button" value="AC" class="SmallButtonTop" onclick="allClear()">
+            <input type="button" value="/" class="SmallButton operator" onclick="edit(this)">
+          </div>
+          <div class="CalRow">
+            <input type="button" value="7" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="8" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="9" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="*" class="SmallButton operator" onclick="edit(this)">
+          </div>
+          <div class="CalRow">
+            <input type="button" value="4" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="5" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="6" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="-" class="SmallButton operator" onclick="edit(this)">
+          </div>
+          <div class="CalRow">
+            <input type="button" value="1" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="2" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="3" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="+" class="SmallButton operator" onclick="edit(this)">
+          </div>
+          <div class="CalRow">
+            <input type="button" value="0" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="00" class="SmallButton" onclick="edit(this)">
+            <input type="button" value="." class="SmallButton" onclick="edit(this)">
+            <input type="button" value="=" class="SmallButton" onclick="getCalc()">
+          </div>
+        </div>
+      <script src="main.js"></script>
+    </body>
+  </html>

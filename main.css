@@ -1,0 +1,67 @@
+.AppTitle {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.Calculator {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 400px;
+  background-color:#000;
+  border-radius: 20px;
+}
+
+.DisplayResult {
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  width: 95%;
+  text-align: right;
+  font-size: 50px;
+  border: 0;
+  margin-left: 5px;
+  border-radius: 20px;
+}
+
+.CalRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: auto;
+}
+
+.SmallButton {
+  border-color: #000;
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.SmallButton:hover {
+  opacity: 0.8;
+}
+
+.SmallButton:last-of-type {
+  background-color: #F79214;
+}
+
+.SmallButtonTop {
+  border-color: #000;
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  color: #000;
+  background-color: #ccc;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.SmallButtonTop:hover {
+  opacity: 0.8;
+}
